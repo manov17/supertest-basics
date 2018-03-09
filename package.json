@@ -1,0 +1,33 @@
+{
+  "name": "supertest-basic",
+  "version": "1.0.0",
+  "description": "A practice for supertest",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "node test | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manov17/supertest-basics.git"
+  },
+  "keywords": [
+    "supertest"
+  ],
+  "author": "manov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manov17/supertest-basics/issues"
+  },
+  "homepage": "https://github.com/manov17/supertest-basics#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "supertest": "^3.0.0",
+    "tape": "^4.9.0"
+  }
+}
